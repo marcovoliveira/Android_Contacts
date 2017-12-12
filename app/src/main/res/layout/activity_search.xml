@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.marco.contacts_isi.SearchActivity">
+
+
+
+<EditText
+    android:id="@+id/editText_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:hint="Search Term"/>
+
+<Button
+    android:id="@+id/button_search"
+    android:onClick="button_search_onClick"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="right"
+    android:text="Search"/>
+
+<ListView
+    android:id="@+id/listView_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>
